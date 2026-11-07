@@ -2,6 +2,10 @@
 
 All notable changes to this package are documented here.
 
+## v0.2.2 - 2026-11-07
+
+- Changed: published as `juniora/nova-translated-labels` from [JunioraTeam/nova-translated-labels](https://github.com/JunioraTeam/nova-translated-labels), a fork of [Adedsec/nova-translated-labels](https://github.com/Adedsec/nova-translated-labels). The PHP namespace stays `Adedsec\NovaTranslatedLabels`.
+
 ## v0.2.1 - 2026-11-07
 
 - Fix: a grey line no longer stays behind when Nova rewrites a label with the same visible text but no real name, such as a computed `Name` column after switching resources. The script now counts its own writes instead of comparing text.
